@@ -1,0 +1,21 @@
+{
+    "settings": {
+        "phpunit.composer": true,
+        "phpunit.options":
+        {
+            "v": true,
+            "stop-on-failure": false,
+            "no-coverage": true,
+            "d": [
+                "display_errors=1",
+                "xdebug.scream=0"
+            ]
+        }
+    },
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
