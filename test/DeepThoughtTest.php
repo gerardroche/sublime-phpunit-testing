@@ -8,4 +8,14 @@ class DeepThoughtTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertSame(42, DeepThought::theAnswerToTheUltimateQuestionOfLifeTheUniverseAndEverything());
     }
+
+    public function testTrue()
+    {
+        $this->assertTrue(true);
+    }
+
+    public function testFalse()
+    {
+        $this->assertFalse(false);
+    }
 }
