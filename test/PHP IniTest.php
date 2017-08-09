@@ -2,7 +2,7 @@
 
 namespace GerardRoche\SublimePHPUnitKitTesting;
 
-class PHPIniTest extends \PHPUnit_Framework_TestCase
+class PHPIniTest extends \PHPUnit\Framework\TestCase
 {
     public function testErrorReporting()
     {
