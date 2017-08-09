@@ -1,23 +1,11 @@
 {
-    "settings": {
-        // "phpunit.php_executable": "~/.phpenv/versions/7.x/bin/php",
-        // "phpunit.composer": true,
-        // "phpunit.options":
-        // {
-        //     "v": true,
-        //     "stop-on-failure": false,
-        //     "no-coverage": true,
-        //     "d": [
-        //         "display_errors=1",
-        //         "xdebug.scream=0"
-        //     ]
-        // }
-    },
 	"folders":
 	[
 		{
-            "name": "PHPUnitKit Testing",
 			"path": "."
 		}
-	]
+	],
+	"settings":
+	{
+	}
 }
