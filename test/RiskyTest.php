@@ -2,7 +2,7 @@
 
 namespace GerardRoche\SublimePHPUnitKitTesting;
 
-class ToggleTest extends \PHPUnit_Framework_TestCase
+class RiskyTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @todo disallow phpdoc todo
@@ -12,16 +12,16 @@ class ToggleTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(true);
     }
 
-    public function testDisallowTestOutput()
-    {
-        echo "hello!";
-        $this->assertTrue(true);
-    }
+    // public function testDisallowTestOutput()
+    // {
+    //     echo "hello!";
+    //     $this->assertTrue(true);
+    // }
 
-    public function testReportUselessTests()
-    {
-        $x = null;
-    }
+    // public function testReportUselessTests()
+    // {
+    //     $x = null;
+    // }
 
     /**
      * @covers \GerardRoche\SublimePHPUnitKitTesting\StrictCoverage::a

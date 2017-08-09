@@ -2,6 +2,8 @@
 <phpunit
     stopOnFailure="false"
     bootstrap="test/bootstrap.php"
+    verbose="true"
+    strict="true"
     >
 
     <php>
