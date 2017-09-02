@@ -1,0 +1,10 @@
+language: php
+
+php:
+  - 7.1
+
+install:
+  - composer -vvv install
+
+script:
+  - vendor/bin/phpunit --configuration phpunit.xml.dist --verbose --coverage-text

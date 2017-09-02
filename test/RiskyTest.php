@@ -2,7 +2,7 @@
 
 namespace GerardRoche\SublimePHPUnitKitTesting;
 
-class PHPTest extends \PHPUnit\Framework\TestCase
+class RiskyTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @todo disallow phpdoc todo
