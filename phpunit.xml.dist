@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
-    stopOnFailure="false"
-    bootstrap="test/bootstrap.php"
-    verbose="true"
-    strict="true"
-    >
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutTestSize="true"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        beStrictAboutTodoAnnotatedTests="true"
+        bootstrap="test/bootstrap.php"
+        verbose="true"
+        stopOnFailure="false"
+        strict="true"
+        >
 
     <php>
         <ini name="error_reporting" value="-1" />

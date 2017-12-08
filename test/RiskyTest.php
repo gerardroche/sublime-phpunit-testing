@@ -2,6 +2,7 @@
 
 namespace GerardRoche\SublimePHPUnitKitTesting;
 
+
 class RiskyTest extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -12,16 +13,21 @@ class RiskyTest extends \PHPUnit\Framework\TestCase
         $this->assertTrue(true);
     }
 
-    // public function testDisallowTestOutput()
-    // {
-    //     echo "hello!";
-    //     $this->assertTrue(true);
-    // }
+    public function testSkip()
+    {
+        $this->markTestSkipped();
+    }
 
-    // public function testReportUselessTests()
-    // {
-    //     $x = null;
-    // }
+    public function testDisallowTestOutput()
+    {
+        echo "hello!";
+        $this->assertTrue(true);
+    }
+
+    public function testReportUselessTests()
+    {
+        $x = null;
+    }
 
     /**
      * @covers \GerardRoche\SublimePHPUnitKitTesting\StrictCoverage::a
