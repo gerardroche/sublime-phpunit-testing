@@ -13,6 +13,5 @@ class StrictCoverage
 
     public function b()
     {
-
     }
 }

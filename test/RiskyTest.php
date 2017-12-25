@@ -2,7 +2,6 @@
 
 namespace GerardRoche\SublimePHPUnitKitTesting;
 
-
 class RiskyTest extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -20,7 +19,7 @@ class RiskyTest extends \PHPUnit\Framework\TestCase
 
     public function testDisallowTestOutput()
     {
-        echo "hello!";
+        echo 'hello!';
         $this->assertTrue(true);
     }
 
