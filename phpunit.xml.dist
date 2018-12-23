@@ -5,7 +5,6 @@
         beStrictAboutTestsThatDoNotTestAnything="true"
         beStrictAboutTodoAnnotatedTests="true"
         bootstrap="test/bootstrap.php"
-        verbose="true"
         stopOnFailure="false"
         strict="true"
         >

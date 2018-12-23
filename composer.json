@@ -1,5 +1,5 @@
 {
-    "name": "gerardroche/sublime-phpunitkit-example",
+    "name": "gerardroche/sublime-phpunit-testing",
     "require": {
         "php": "^5.5 || ^7.0"
     },
