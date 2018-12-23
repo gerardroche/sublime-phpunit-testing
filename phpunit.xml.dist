@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
+        bootstrap="test/bootstrap.php"
+
+        >
+        <!--
+
+        beStrictAboutCoversAnnotation="true"
         beStrictAboutOutputDuringTests="true"
-        beStrictAboutTestSize="true"
         beStrictAboutTestsThatDoNotTestAnything="true"
         beStrictAboutTodoAnnotatedTests="true"
-        bootstrap="test/bootstrap.php"
+        forceCoversAnnotation="true"
+        printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
         stopOnFailure="false"
-        strict="true"
-        >
+
+        -->
 
     <php>
         <ini name="error_reporting" value="-1" />
@@ -19,6 +25,12 @@
         <testsuite name="unit">
             <directory>test</directory>
         </testsuite>
+        <testsuite name="fizz">
+            <directory>test/Fizz</directory>
+        </testsuite>
+        <testsuite name="buzz">
+            <directory>test/Buzz</directory>
+        </testsuite>
     </testsuites>
 
     <filter>
@@ -27,8 +39,9 @@
         </whitelist>
     </filter>
 
-    <logging>
+<!--     <logging>
         <log type="coverage-html" target="build/coverage" />
     </logging>
+ -->
 
 </phpunit>

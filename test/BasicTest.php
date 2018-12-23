@@ -1,6 +1,5 @@
 <?php
 
-
 class BasicTest extends \PHPUnit\Framework\TestCase
 {
     public function foobar1()

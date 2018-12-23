@@ -4,14 +4,15 @@ namespace GerardRoche\SublimePHPUnitKitTesting;
 
 class StrictCoverage
 {
-    public function a()
+    public function coversBuzz()
     {
-        $this->b();
+        $this->buzz();
 
         return true;
     }
 
-    public function b()
+    public function buzz()
     {
+        return true;
     }
 }
