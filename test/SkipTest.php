@@ -7,6 +7,5 @@ class SkipTest extends \PHPUnit\Framework\TestCase
     public function testSkip()
     {
         $this->markTestSkipped();
-        // $this->assertTrue(true);
     }
 }

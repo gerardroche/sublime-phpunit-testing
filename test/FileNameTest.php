@@ -8,4 +8,9 @@ class FileNameTest extends \PHPUnit\Framework\TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testBasic2()
+    {
+        $this->assertTrue(true);
+    }
 }
