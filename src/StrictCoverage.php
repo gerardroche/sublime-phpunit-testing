@@ -15,4 +15,24 @@ class StrictCoverage
     {
         return true;
     }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function ignored()
+    {
+        return true;
+    }
+
+    // @codeCoverageIgnoreStart
+    public function ignoredStart()
+    {
+        return true;
+    }
+
+    public function ignoredEnd()
+    {
+        return true;
+    }
+    // @codeCoverageIgnoreEnd
 }

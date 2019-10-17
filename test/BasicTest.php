@@ -4,7 +4,7 @@ class BasicTest extends \PHPUnit\Framework\TestCase
 {
     public function foobar1()
     {
-        $this->assertTrue(true);
+        $this->assertTrue(null);
     }
 
     public function testOne()
@@ -14,7 +14,7 @@ class BasicTest extends \PHPUnit\Framework\TestCase
 
     public function foobar2()
     {
-        $this->assertTrue(true);
+        $this->assertTrue(null);
     }
 
     public function testTwo()
@@ -24,7 +24,7 @@ class BasicTest extends \PHPUnit\Framework\TestCase
 
     public function foobar3()
     {
-        $this->assertTrue(true);
+        $this->assertTrue(null);
     }
 
     public function testThree()
@@ -32,8 +32,23 @@ class BasicTest extends \PHPUnit\Framework\TestCase
         $this->assertTrue(true);
     }
 
-    public function foobar4()
+    public function testFour()
     {
         $this->assertTrue(true);
+    }
+
+    public function testFive()
+    {
+        $this->assertTrue(true);
+    }
+
+    public function testSix()
+    {
+        $this->assertTrue(true);
+    }
+
+    public function foobar4()
+    {
+        $this->assertTrue(null);
     }
 }
