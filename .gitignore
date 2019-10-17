@@ -6,7 +6,6 @@
 
 *.cache
 /build/
-/composer.lock
 /phpunit.xml
 /tmp/
 /vendor/
