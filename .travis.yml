@@ -8,4 +8,4 @@ install:
   - composer -vvv install
 
 script:
-  - vendor/bin/phpunit -c phpunit.xml.dist -v --coverage-text
+  - vendor/bin/phpunit -v -c phpunit.xml.dist --coverage-text
