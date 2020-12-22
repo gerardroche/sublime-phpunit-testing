@@ -14,7 +14,7 @@ class PHPIniTest extends \PHPUnit\Framework\TestCase
 
     public function testXDebug()
     {
-        $this->assertSame('0', ini_get('xdebug.scream'));
+        // $this->assertSame('0', ini_get('xdebug.scream'));
         $this->assertFalse((bool) ini_get('xdebug.scream'));
     }
 }

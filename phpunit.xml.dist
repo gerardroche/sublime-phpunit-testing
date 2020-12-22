@@ -38,9 +38,9 @@
         </whitelist>
     </filter>
 
-<!--     <logging>
+    <logging>
         <log type="coverage-html" target="build/coverage" />
     </logging>
- -->
+
 
 </phpunit>

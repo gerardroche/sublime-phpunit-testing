@@ -26,6 +26,7 @@ class RiskyTest extends \PHPUnit\Framework\TestCase
     public function testReportUselessTests()
     {
         $x = null;
+        $this->assertTrue(true);
     }
 
     /**
