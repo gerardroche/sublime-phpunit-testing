@@ -4,11 +4,11 @@ php:
   - 7.2
 
 install:
-  - pecl install pcov
+  # - pecl install pcov
   - composer -vvv install
 
-# before_script:
-#   - phpenv config-rm xdebug.ini
+before_script:
+  - phpenv config-rm xdebug.ini
 
 script:
   - phpdbg -qrr vendor/bin/phpunit -v -c phpunit.xml.dist --coverage-text
