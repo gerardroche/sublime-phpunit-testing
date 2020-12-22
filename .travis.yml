@@ -11,3 +11,4 @@ before_script:
 
 script:
   - phpdbg -qrr vendor/bin/phpunit -v -c phpunit.xml.dist --coverage-text
+  - vendor/bin/phpunit -v -c phpunit.xml.dist --coverage-text
