@@ -12,7 +12,6 @@
         forceCoversAnnotation="true"
         printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
         stopOnFailure="false"
-
         -->
 
     <php>
@@ -23,7 +22,7 @@
 
     <testsuites>
         <testsuite name="unit">
-            <directory>test</directory>
+            <directory>test/unit</directory>
         </testsuite>
         <testsuite name="fizz">
             <directory>test/Fizz</directory>

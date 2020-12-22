@@ -16,6 +16,11 @@ class StrictCoverage
         return true;
     }
 
+    public function a()
+    {
+        return true;
+    }
+
     /**
      * @codeCoverageIgnore
      */

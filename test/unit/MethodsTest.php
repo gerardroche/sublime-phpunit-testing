@@ -1,7 +1,5 @@
 <?php
 
-namespace GerardRoche\SublimePHPUnitKitTesting;
-
 class MethodsTest extends \PHPUnit\Framework\TestCase
 {
     public function testCamelCaseTestMethod()

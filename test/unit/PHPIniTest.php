@@ -1,7 +1,5 @@
 <?php
 
-namespace GerardRoche\SublimePHPUnitKitTesting;
-
 class PHPIniTest extends \PHPUnit\Framework\TestCase
 {
     public function testErrorReporting()
