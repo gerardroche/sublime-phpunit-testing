@@ -4,6 +4,7 @@ php:
   - 7.2
 
 install:
+  - pecl install pcov
   - composer -vvv install
 
 before_script:
