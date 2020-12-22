@@ -6,5 +6,8 @@ php:
 install:
   - composer -vvv install
 
+before_script:
+  - phpenv config-rm xdebug.ini
+
 script:
-  - vendor/bin/phpunit -v -c phpunit.xml.dist --coverage-text
+  - phpdbg -qrr vendor/bin/phpunit -v -c phpunit.xml.dist --coverage-text
